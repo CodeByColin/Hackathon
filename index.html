@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>SOLAR SYSTEM</title>
+		<style>
+			body { margin: 0; }
+		</style>
+		 <link rel="stylesheet" type="text/css" href="main.css">
+		<script type="importmap">
+			{
+			  "imports": {
+				"three": "https://unpkg.com/three@0.157.0/build/three.module.js",
+				"three/addons/": "https://unpkg.com/three@0.157.0/examples/jsm/"
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<div id="popup" class="popup">
+			<div class="popup-content">
+			  <h2>Welcome to the Solar System</h2>
+			  <p>Explore the planets by clicking on them!</p>
+			  <button id="close-popup">Start Exploring</button>
+			</div>
+		  </div>
+		<div id="container"></div>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
